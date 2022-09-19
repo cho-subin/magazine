@@ -1,0 +1,29 @@
+.main_top{
+    display: flex;
+    /* 배치 방향 설정 */
+    flex-direction: row;
+    /* 줄넘김 처리 설정 */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 100%;
+    background-color: rgb(236, 236, 236);
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+    margin: 1% 20% 1% 2%;
+    /* background-color: aqua; */
+}
+
+.home{
+    display: flex;
+    margin: 1% 2% 1% 20%;
+}
+
+.house{
+    width: 35px;
+    height: 35px;
+    color: rgb(0, 132, 255);
+    /* background-color: aqua; */
+}

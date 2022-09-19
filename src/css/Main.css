@@ -1,0 +1,7 @@
+.main{
+    display:flex;
+    /* 배치 방향 설정 */
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: aqua; */
+}

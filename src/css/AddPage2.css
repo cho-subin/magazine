@@ -1,0 +1,77 @@
+.addpage2{
+    display: flex;
+    /* 배치 방향 설정 */
+    flex-direction: column;
+    /* 줄넘김 처리 설정 */
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    align-items: center;
+    margin-top: 3%;
+    /* background-color: aquamarine; */
+}
+
+.wrap2{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 60%;
+    border: solid 3px rgb(180, 211, 224);
+    border-radius: 10px;
+    /* margin: 1% 2% 1% 2%; */
+    /* padding: 1% 2% 1% 2%; */
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.wrap_up2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 2%;
+    /* margin-bottom: 2%; */
+}
+
+.user_img2{
+    width: 45px;
+    height: 45px;
+    margin-left: 2%;
+    border-radius: 30px;
+    background-color: grey;
+}
+
+.user_img2{
+    width: 45px;
+    height: 45px;
+    border-radius: 30px;
+    /* background-color: grey; */
+}
+
+.date2{
+    margin-right: 2%;
+}
+
+.wrap_down2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 300px;
+}
+
+.uplode_img2{
+    flex-basis: 50%;
+    width: 50%;
+    /* background-color: gray; */
+}
+
+.uplode_img2>img{
+    max-width: 100%;
+    width: auto !important;
+    height: auto !important;
+}
+
+.uplode_text2{
+    width: 50%;
+    background-color: rgb(233, 245, 255);
+}

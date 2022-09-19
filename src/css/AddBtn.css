@@ -1,0 +1,23 @@
+.Add_Btn{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    
+    display:inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    /* gap: 20px; */
+
+}
+
+.plus{
+    width: 60px;
+    height: 60px;
+
+    font-size: 40px;
+    color: white;
+
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(80, 179, 255);
+}

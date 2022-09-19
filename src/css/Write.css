@@ -1,0 +1,58 @@
+.write{
+    display:flex;
+    /* 배치 방향 설정 */
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+label{
+    color: rgb(47, 161, 255);
+    font-weight: bold;
+}
+
+.select_img{
+    display: flex;
+    justify-content: center;
+}
+
+.addpage_2{
+    margin-top: 2%;
+}
+
+.addpage_3{
+    margin-top: 2%;
+}
+
+.select_img>button{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(0, 183, 255);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.write_text>input{
+    width: 60%;
+    height: 200px;
+    border: solid 2px rgb(124, 218, 255);
+    border-radius: 10px;
+}
+
+.write_btn{
+    margin: 2% 0%;
+}
+
+.write_btn>button{
+    width: 60%;
+    height: 40px;
+    border: solid 2px rgb(124, 218, 255);
+    border-radius: 5px;
+    
+    background-color: rgb(0, 183, 255);
+    border: none;
+    color: white;
+    font-weight: bold;
+}
